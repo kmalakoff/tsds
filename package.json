@@ -1,38 +1,41 @@
 {
-  "name": "tsds",
-  "version": "1.0.3",
-  "description": "CLI wrapper for ts-dev-stack",
-  "keywords": [
-    "tsds",
-    "ts-dev-stack",
-    "cli",
-    "typescript",
-    "dev"
-  ],
-  "homepage": "https://github.com/kmalakoff/ts-dev-stack",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/kmalakoff/tsds.git"
-  },
-  "license": "MIT",
-  "author": "Kevin Malakoff <kmalakoff@gmail.com> (https://github.com/kmalakoff)",
-  "bin": {
-    "tsds": "bin/cli.cjs"
-  },
-  "files": [
-    "bin"
-  ],
-  "scripts": {
-    "format": "echo \"CLI wrapper - no format\"",
-    "prepublishOnly": "tsds validate",
-    "test": "echo \"CLI wrapper - no tests\"",
-    "test:engines": "echo \"CLI wrapper - no tests\"",
-    "version": "echo \"CLI wrapper - no version\""
-  },
-  "dependencies": {
-    "ts-dev-stack": "*"
-  },
-  "engines": {
-    "node": ">=0.8"
-  }
+	"name": "tsds",
+	"version": "1.0.3",
+	"description": "CLI wrapper for ts-dev-stack",
+	"keywords": [
+		"tsds",
+		"ts-dev-stack",
+		"cli",
+		"typescript",
+		"dev"
+	],
+	"homepage": "https://github.com/kmalakoff/ts-dev-stack",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/kmalakoff/tsds.git"
+	},
+	"license": "MIT",
+	"author": "Kevin Malakoff <kmalakoff@gmail.com> (https://github.com/kmalakoff)",
+	"bin": {
+		"tsds": "bin/cli.cjs"
+	},
+	"files": [
+		"bin"
+	],
+	"scripts": {
+		"format": "echo \"CLI wrapper - no format\"",
+		"prepublishOnly": "tsds validate",
+		"test": "echo \"CLI wrapper - no tests\"",
+		"test:engines": "echo \"CLI wrapper - no tests\"",
+		"version": "echo \"CLI wrapper - no version\""
+	},
+	"dependencies": {
+		"ts-dev-stack": "*"
+	},
+	"devDependencies": {
+		"tsds-config": "*"
+	},
+	"engines": {
+		"node": ">=0.8"
+	}
 }
