@@ -1,6 +1,6 @@
 {
   "name": "tsds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI wrapper for ts-dev-stack",
   "keywords": [
     "tsds",
@@ -27,7 +27,7 @@
     "prepublishOnly": "tsds validate",
     "test": "echo \"CLI wrapper - no tests\"",
     "test:engines": "echo \"CLI wrapper - no tests\"",
-    "version": "tsds version"
+    "version": "echo \"CLI wrapper - no version\""
   },
   "dependencies": {
     "ts-dev-stack": "*"
