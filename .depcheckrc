@@ -1,1 +1,1 @@
-ignores: ["ts-dev-stack"]
+ignores: ["ts-dev-stack", "tsds-config"]

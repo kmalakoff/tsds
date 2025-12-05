@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require('ts-dev-stack/bin/cli.js');
+require("ts-dev-stack/bin/cli.js");
