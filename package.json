@@ -1,6 +1,6 @@
 {
 	"name": "tsds",
-	"version": "1.0.16",
+	"version": "1.0.17",
 	"description": "CLI wrapper for ts-dev-stack",
 	"keywords": [
 		"tsds",
