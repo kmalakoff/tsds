@@ -30,10 +30,10 @@
 		"version": "echo \"CLI wrapper - no version\""
 	},
 	"dependencies": {
-		"ts-dev-stack": "^1.21.3"
+		"ts-dev-stack": "*"
 	},
 	"devDependencies": {
-		"tsds-config": "^0.2.2"
+		"tsds-config": "*"
 	},
 	"engines": {
 		"node": ">=0.8"
