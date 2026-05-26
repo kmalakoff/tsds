@@ -6,7 +6,7 @@ CLI wrapper for [ts-dev-stack](https://github.com/kmalakoff/ts-dev-stack). Enabl
 
 ```bash
 # Run without installing locally
-npx tsds validate
+tsds validate
 npx tsds build
 npx tsds test:node
 
